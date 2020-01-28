@@ -58,10 +58,10 @@ Using `srcdoc` technique [css-tricks](https://css-tricks.com/lazy-load-embedded-
 Using `Lite YouTube Embed` [repo](https://github.com/paulirish/lite-youtube-embed).
 [TEST LITE-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lite-youtube-embed/)
 
-![lite-youtube-embed](comp/iframe/lite-youtube-embed.png)
+![lite-youtube-embed](comp/lite-youtube-embed/lite-youtube-embed.png)
 
 
 Using `Lazy YouTube Embed`.
 [TEST LAZY-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lazy-youtube-embed/)
 
-![lite-youtube-embed](comp/iframe/lite-youtube-embed.png)
+![lite-youtube-embed](comp/lazy-youtube-embed/lazy-youtube-embed.png)
