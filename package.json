@@ -1,0 +1,34 @@
+{
+  "name": "lazy-youtube-embed",
+  "version": "1.0.0",
+  "description": "A fast, lightweight, lazy load, progressive enhancement YouTube embed.",
+  "main": "dist/lazy-youtube-embed.js",
+  "style": "dist/lazy-youtube-embed.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logico/lazy-youtube-embed.git"
+  },
+  "keywords": [
+    "youtube",
+    "embed",
+    "lazyload",
+    "fast",
+    "progressive-enhancement",
+    "lightweight"
+  ],
+  "author": "Alejandro Amaral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logico/lazy-youtube-embed/issues"
+  },
+  "homepage": "https://github.com/logico/lazy-youtube-embed#readme",
+  "readme": "README.md",
+  "files": [
+    "src/**",
+    "package.json",
+    "README.md"
+  ]
+}

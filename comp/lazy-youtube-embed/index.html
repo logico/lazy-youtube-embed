@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+      <style>
+          * {
+            font-family: Helvetica, Arial, sans-serif;
+          }
+
+          h1 {
+            border: 5px solid black;
+            display: block;
+            padding: 11vw 6rem .5rem .5rem;
+            width: 30vw;
+          }
+
+          p {
+            margin: 2rem 0 4rem 0;
+          }
+
+          .lazy-youtube-embed {
+            display: block;
+            background: #CCC;
+            position: relative;
+            padding-top: 56.25%;
+          }
+
+          .lazy-youtube-embed > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+          }
+
+          .lazy-youtube-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+
+          .lazy-youtube-embed .ytlight__play {
+            position: absolute;
+            left: calc(50% - 6%);
+            top: calc(50% - 6%);
+            width: 12%;
+            filter: saturate(0);
+            opacity: .8;
+          }
+
+          .lazy-youtube-embed:hover .ytlight__play {
+            filter: saturate(100%);
+            opacity: 1;
+          }
+
+          section {
+            margin-bottom: 50vh;
+          }
+      </style>
+      <script src="lazy-youtube-embed.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <a href="https://youtu.be/3vBwRfQbXkg" class="lazy-youtube-embed">HOW TO FUNK IN TWO MINUTES</a>
+        <h1>Lightweight YouTube embed<br>―</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim ipsum, tempus ac arcu sit amet, auctor rhoncus lectus. Phasellus lorem turpis, vulputate ac cursus eget, sollicitudin eu sapien. Quisque vitae ex justo. Mauris arcu nibh, blandit eu volutpat vitae, dapibus id nulla. Mauris euismod, ante et pulvinar malesuada, erat tellus elementum metus, in volutpat sapien diam non tellus. Nullam faucibus magna non rhoncus placerat. Aliquam vel euismod dui. Phasellus vulputate et urna eu fermentum. Aliquam id lectus risus.
+        </p>
+  
+      </section>
+  
+      <section>
+  
+        <a href="https://youtu.be/s49CT4DTAkw" class="lazy-youtube-embed">Chillhop Yearmix 2019 ☕️ jazz beats & lofi hip hop</a>
+    
+        <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim ipsum, tempus ac arcu sit amet, auctor rhoncus lectus. Phasellus lorem turpis, vulputate ac cursus eget, sollicitudin eu sapien. Quisque vitae ex justo. Mauris arcu nibh, blandit eu volutpat vitae, dapibus id nulla. Mauris euismod, ante et pulvinar malesuada, erat tellus elementum metus, in volutpat sapien diam non tellus. Nullam faucibus magna non rhoncus placerat. Aliquam vel euismod dui. Phasellus vulputate et urna eu fermentum. Aliquam id lectus risus.
+       </p>
+      </section>
+  
+      <section>
+        <a href="https://youtu.be/mml46rXspXQ" class="lazy-youtube-embed">Japanese 80s City Pop Compilation</a>
+      </section>
+    </main>
+  </body>
+</html>
