@@ -42,32 +42,50 @@ In HTML add an `a` tag with the source to the YouTube video and `lazy-youtube-em
 
 ## Comparison
 
-These are 
+These are test pages and results of performance. Faster to slower
+
+1.- `Lazy YouTube Embed`.
+
+[LAZY-YOUTUBE-EMBED TEST PAGE](https://lab.logico.ar/lazy-youtube-embed/lazy-youtube-embed/)
+
+![lite-youtube-embed](comp/lazy-youtube-embed/lazy-youtube-embed.png)
 
 
-Standard `<iframe>` YouTube embed.
 
-[TEST IFRAME](https://lab.logico.ar/lazy-youtube-embed/iframe/)
+2.- `Lite YouTube Embed` [repo](https://github.com/paulirish/lite-youtube-embed).
 
-![iframe](comp/iframe/iframe.png)
-
-
-Using `srcdoc` technique [css-tricks](https://css-tricks.com/lazy-load-embedded-youtube-videos/).
-
-[TEST SRCDOC](https://lab.logico.ar/lazy-youtube-embed/srcdoc/)
-
-![iframe](comp/srcdoc/srcdoc.png)
-
-
-Using `Lite YouTube Embed` [repo](https://github.com/paulirish/lite-youtube-embed).
-
-[TEST LITE-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lite-youtube-embed/)
+[LITE-YOUTUBE-EMBED TEST PAGE](https://lab.logico.ar/lazy-youtube-embed/lite-youtube-embed/)
 
 ![lite-youtube-embed](comp/lite-youtube-embed/lite-youtube-embed.png)
 
 
-Using `Lazy YouTube Embed`.
 
-[TEST LAZY-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lazy-youtube-embed/)
+3.- `srcdoc` technique [css-tricks](https://css-tricks.com/lazy-load-embedded-youtube-videos/).
 
-![lite-youtube-embed](comp/lazy-youtube-embed/lazy-youtube-embed.png)
+[SRCDOC TEST PAGE](https://lab.logico.ar/lazy-youtube-embed/srcdoc/)
+
+![iframe](comp/srcdoc/srcdoc.png)
+
+
+
+4.- AMP `<amp-youtube>` component [amp-youtube](https://amp.dev/es/documentation/components/amp-youtube/).
+
+[AMP TEST PAGE](https://lab.logico.ar/lazy-youtube-embed/amp/)
+
+![iframe](comp/amp/amp.png)
+
+
+
+5.- `<iframe>` YouTube embed.
+
+[IFRAME TEST PAGE](https://lab.logico.ar/lazy-youtube-embed/iframe/)
+
+![iframe](comp/iframe/iframe.png)
+
+
+
+
+
+
+
+
