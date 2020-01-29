@@ -24,6 +24,8 @@ import lazyYoutubeEmbed from 'lazy-youtube-embed'
 Or via CDN with script tag
 
 ```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/logico/lazy-youtube-embed/dist/lazy-youtube-embed.css" />
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazy-youtube-embed@1.0.0/dist/lazy-youtube-embed.js" defer></script>
 ```
 
@@ -43,25 +45,29 @@ In HTML add an `a` tag with the source to the YouTube video and `lazy-youtube-em
 These are 
 
 
-Standard <iframe> YouTube embed.
+Standard `<iframe>` YouTube embed.
+
 [TEST IFRAME](https://lab.logico.ar/lazy-youtube-embed/iframe/)
 
 ![iframe](comp/iframe/iframe.png)
 
 
 Using `srcdoc` technique [css-tricks](https://css-tricks.com/lazy-load-embedded-youtube-videos/).
+
 [TEST SRCDOC](https://lab.logico.ar/lazy-youtube-embed/srcdoc/)
 
 ![iframe](comp/srcdoc/srcdoc.png)
 
 
 Using `Lite YouTube Embed` [repo](https://github.com/paulirish/lite-youtube-embed).
+
 [TEST LITE-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lite-youtube-embed/)
 
 ![lite-youtube-embed](comp/lite-youtube-embed/lite-youtube-embed.png)
 
 
 Using `Lazy YouTube Embed`.
+
 [TEST LAZY-YOUTUBE-EMBED](https://lab.logico.ar/lazy-youtube-embed/lazy-youtube-embed/)
 
 ![lite-youtube-embed](comp/lazy-youtube-embed/lazy-youtube-embed.png)
