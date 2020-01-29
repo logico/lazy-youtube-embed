@@ -4,7 +4,7 @@
 A fast, lightweight, lazy load, progressive enhancement YouTube embed. 🤯
 
 - **NO DEPENDENCIES**.
-- Graceful degradation: Uses the `a` tag instead `div` or custom element. Older or javascript disabled browsers can go to YouTube anyway.
+- Progressive enhancement: Uses the `a` tag instead `div` or custom element. Older or javascript disabled browsers can go to YouTube anyway.
 - Lazy load: Load the video thumbnail using `IntersectionObserver API`.
 - The quality of the thumbnail is decided using `Network Information API`.
 
