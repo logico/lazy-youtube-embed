@@ -1,6 +1,6 @@
 {
   "name": "lazy-youtube-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast, lightweight, lazy load, progressive enhancement YouTube embed.",
   "main": "dist/lazy-youtube-embed.js",
   "style": "dist/lazy-youtube-embed.css",
