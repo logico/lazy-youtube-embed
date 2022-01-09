@@ -1,0 +1,36 @@
+.lazy-youtube-embed {
+    display: block;
+    background: #CCC;
+    position: relative;
+    padding-top: 56.25%;
+  }
+
+  .lazy-youtube-embed > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .lazy-youtube-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lazy-youtube-embed .ytlight__play {
+    position: absolute;
+    left: calc(50% - 6%);
+    top: calc(50% - 6%);
+    width: 12%;
+    filter: saturate(0);
+    opacity: .8;
+  }
+
+  .lazy-youtube-embed:hover .ytlight__play {
+    filter: saturate(100%);
+    opacity: 1;
+  }
